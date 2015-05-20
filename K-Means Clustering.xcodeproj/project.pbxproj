@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C2DCA1A61B0C995C000E8189 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C2DCA1A51B0C995C000E8189 /* main.cpp */; };
+		C2DCA1B11B0CB50A000E8189 /* KMClusterer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C2DCA1AF1B0CB50A000E8189 /* KMClusterer.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,9 @@
 /* Begin PBXFileReference section */
 		C2DCA1A21B0C995C000E8189 /* K-Means Clustering */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "K-Means Clustering"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2DCA1A51B0C995C000E8189 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C2DCA1AD1B0CAFF7000E8189 /* KMPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMPoint.h; sourceTree = "<group>"; };
+		C2DCA1AF1B0CB50A000E8189 /* KMClusterer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KMClusterer.cpp; sourceTree = "<group>"; };
+		C2DCA1B01B0CB50A000E8189 /* KMClusterer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMClusterer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,9 @@
 			isa = PBXGroup;
 			children = (
 				C2DCA1A51B0C995C000E8189 /* main.cpp */,
+				C2DCA1AD1B0CAFF7000E8189 /* KMPoint.h */,
+				C2DCA1AF1B0CB50A000E8189 /* KMClusterer.cpp */,
+				C2DCA1B01B0CB50A000E8189 /* KMClusterer.h */,
 			);
 			path = "K-Means Clustering";
 			sourceTree = "<group>";
@@ -119,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2DCA1A61B0C995C000E8189 /* main.cpp in Sources */,
+				C2DCA1B11B0CB50A000E8189 /* KMClusterer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
